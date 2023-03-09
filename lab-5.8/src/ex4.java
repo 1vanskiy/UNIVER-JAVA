@@ -23,6 +23,9 @@ public class ex4 {
             case "-":
                 System.out.println("Я відмовляюсь!");
                 break;
+            default:
+                System.out.println("Невідома опція!");
+                break;
         }
     }
 }
