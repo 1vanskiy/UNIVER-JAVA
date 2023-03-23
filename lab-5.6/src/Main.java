@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Сума цифр двозначного числа " + num + " дорівнює " + sumDigits);
 //        3
         double pi = 3.1415;
-        System.out.println("Округлений результат: " + Math.round(pi));
+        int round =  (int) (pi + 0.5);
+        System.out.println(round);
     }
 }
