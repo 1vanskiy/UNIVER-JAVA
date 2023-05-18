@@ -1,9 +1,9 @@
 package com.company;
 
 public class PersonLocation {
-    private String сity;
-    private double coordinatesX;
-    private double coordinatesY;
+    public String сity;
+    public double coordinatesX;
+    public double coordinatesY;
 
 
     public PersonLocation(String сity, double coordinatesX, double coordinatesY) {

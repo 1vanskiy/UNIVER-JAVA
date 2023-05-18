@@ -1,9 +1,9 @@
 package com.company;
 
 public class PersonSecurity {
-    private String login;
-    private String password;
-    private String ip;
+    public String login;
+    public String password;
+    public String ip;
 
 
     public PersonSecurity(String login, String password, String ip) {
