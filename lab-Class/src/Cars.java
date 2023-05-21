@@ -1,16 +1,14 @@
 public class Cars {
-    //    public String name;
-    public String brand;
-    public String model;
+    protected String brand;
+    protected String model;
+    protected int year;
+    protected String engine;
+    protected int topSpeed;
+    protected int price;
+    protected double accelerate;
+    protected int horsePower;
 
-    public int year;
-    public String engine;
-    public int topSpeed;
-    public double accelerate;
-    public int price;
-    public int horsePower;
-
-    public Cars(String brand, String model,  int year, String engine, int topSpeed, int price, double accelerate, int horsePower) {
+    public Cars(String brand, String model, int year, String engine, int topSpeed, int price, double accelerate, int horsePower) {
         this.brand = brand;
         this.model = model;
         this.year = year;
@@ -21,27 +19,13 @@ public class Cars {
         this.horsePower = horsePower;
     }
 
-    public double getPrice() {
-        return price;
+    public void characteristic() {
+        System.out.println(brand + " " + model);
+        System.out.println("Year: " + year);
+        System.out.println("Engine: " + engine);
+        System.out.println("Top speed: " + topSpeed + " km/h");
+        System.out.println("Acceleration (0-100 km/h): " + accelerate + " seconds");
+        System.out.println("Horsepower: " + horsePower + " hp");
+        System.out.println("Price: $" + price);
     }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getEngine() {
-        return engine;
-    }
-
-    public double getHorsePower() {
-        return horsePower;
-    }
-
-    public double getAccelerate() {
-        return accelerate;
-    }
-
-
-
 }
-
