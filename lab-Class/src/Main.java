@@ -130,6 +130,9 @@ public class Main {
                                 System.out.println("НЕМАЄ В НАЯВНОСТІ");
                                 System.out.println("------------------------------------------------------");
                                 break;
+                            default:
+                                System.out.println("Некоректний вибір.");
+                                break;
                         }
                         break;
                     case 2:
@@ -203,6 +206,9 @@ public class Main {
                                 System.out.println("Покупка не можлива з причини: ");
                                 System.out.println("НЕМАЄ В НАЯВНОСТІ");
                                 System.out.println("------------------------------------------------------");
+                                break;
+                            default:
+                                System.out.println("Некоректний вибір.");
                                 break;
                         }
                         break;
@@ -279,6 +285,9 @@ public class Main {
                                 System.out.println("НЕМАЄ В НАЯВНОСТІ");
                                 System.out.println("------------------------------------------------------");
                                 break;
+                            default:
+                                System.out.println("Некоректний вибір.");
+                                break;
                         }
                         break;
 
@@ -354,6 +363,9 @@ public class Main {
                                 System.out.println("НЕМАЄ В НАЯВНОСТІ");
                                 System.out.println("------------------------------------------------------");
                                 break;
+                            default:
+                                System.out.println("Некоректний вибір.");
+                                break;
                         }
                         break;
                     case 5:
@@ -395,7 +407,41 @@ public class Main {
                                 System.out.println("Покупка не можлива з причини: ");
                                 System.out.println("НЕМАЄ В НАЯВНОСТІ");
                                 System.out.println("------------------------------------------------------");
+                            case 4:
+                                System.out.println("------------------------------------------------------");
+                                System.out.println("Ознайомтесь з характеристиками");
+                                System.out.println(" ");
+                                p911.characteristic();
+                                System.out.println(" ");
+                                System.out.println("Покупка не можлива з причини: ");
+                                System.out.println("НЕМАЄ В НАЯВНОСТІ");
+                                System.out.println("------------------------------------------------------");
+                                System.out.println(" ");
+                                System.out.println(" ");
+                                System.out.println("------------------------------------------------------");
+                                System.out.println("Ознайомтесь з характеристиками");
+                                System.out.println(" ");
+                                Cayenne.characteristic();
+                                System.out.println(" ");
+                                System.out.println("Покупка не можлива з причини: ");
+                                System.out.println("НЕМАЄ В НАЯВНОСТІ");
+                                System.out.println("------------------------------------------------------");
+                                System.out.println(" ");
+                                System.out.println(" ");
+                                System.out.println("------------------------------------------------------");
+                                System.out.println("Ознайомтесь з характеристиками");
+                                System.out.println(" ");
+                                Taycan.characteristic();
+                                System.out.println(" ");
+                                System.out.println("Покупка не можлива з причини: ");
+                                System.out.println("НЕМАЄ В НАЯВНОСТІ");
+                                System.out.println("------------------------------------------------------");
+                                break;
+                            default:
+                                System.out.println("Некоректний вибір.");
+                                break;
                         }
+
                         break;
                 }
                 break;
@@ -459,7 +505,5 @@ public class Main {
                 break;
 
         }
-
-
     }
 }

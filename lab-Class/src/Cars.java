@@ -1,12 +1,12 @@
 public class Cars {
-    protected String brand;
-    protected String model;
-    protected int year;
-    protected String engine;
-    protected int topSpeed;
-    protected int price;
-    protected double accelerate;
-    protected int horsePower;
+    public String brand;
+    public String model;
+    public int year;
+    public String engine;
+    public int topSpeed;
+    public int price;
+    public double accelerate;
+    public int horsePower;
 
     public Cars(String brand, String model, int year, String engine, int topSpeed, int price, double accelerate, int horsePower) {
         this.brand = brand;
